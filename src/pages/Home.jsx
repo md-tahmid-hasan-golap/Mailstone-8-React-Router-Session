@@ -1,10 +1,12 @@
 import React from "react";
+import HeroContainer from "../components/HeroContainer";
+import PhonesContainer from "../components/PhonesContainer";
 
 const Home = () => {
   return (
     <div>
-      <h1>Hero section</h1>
-      <h1>phones container</h1>
+      <HeroContainer></HeroContainer>
+      <PhonesContainer></PhonesContainer>
     </div>
   );
 };
